@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    zoom: 1;
+    display: block;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+    a{
+        text-decoration: 
+    }
+    body{
+        background: url(../img/bg.jpg) no-repeat;
+        background-size: cover;
+        background-color: #e6e6e6;
+        width: 90%;
+        margin: 0;
+        padding-bottom: 30px;
+        font: 16px Helvetica, sans-serif;   
+    }
+
+    header{
+        height: 150px;
+        position: relative;
+        background: url(../img/brand-bg.png) no-repeat 145px;
+    }
+    .brand {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+    }
+
+    .contact{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+    }
